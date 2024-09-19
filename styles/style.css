@@ -1,0 +1,13 @@
+body {
+  background-color: skyblue;
+}
+.btn-dark {
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.btn-dark:hover {
+  background-color: lightslategray;
+}
