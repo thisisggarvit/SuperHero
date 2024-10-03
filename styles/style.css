@@ -4,7 +4,40 @@ body {
 .btn-dark {
   background-color: darkslategray;
   color: white;
+  border: none;/* Background pattern and font setup */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://www.transparenttextures.com/patterns/bright-squares.png');
+  background-color: skyblue;
+}
+
+/* Button styling */
+.btn-dark {
+  background-color: darkslategray;
+  color: white;
   border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.btn-dark:hover {
+  background-color: lightslategray;
+}
+
+/* Game piece styling */
+.game-piece {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border-radius: 50%;
+  cursor: move;
+  border: 2px solid black;
+  user-select: none;
+}
+
   padding: 10px 20px;
   cursor: pointer;
 }
